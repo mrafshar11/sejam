@@ -1,0 +1,207 @@
+/* HASANZADEH */
+.fixed-top {
+    position: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 700;
+}
+
+div.sliderImgOne.carousel-item {
+    background-color: #f3b937;
+}
+
+.logoMat {
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navMenu {
+    height: auto;
+    background: unset;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logoMat.left {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 200px) {
+    .navbar-collapse {
+        background-color: rgb(252, 248, 251);
+        padding: 30px;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: 0px 14px 13px #00000052;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-left: 0.05rem;
+        padding-right: 0.05rem;
+        font-size: 0.76rem;
+    }
+
+    .nav-link .fas {
+        visibility: hidden;
+    }
+
+    .logoMat.left {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .nav-link .fas {
+        visibility: visible;
+    }
+}
+
+.nav-link .fas {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    padding-left: 7px;
+    color: #d35400;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0;
+    opacity: 0.5;
+}
+
+.carousel-item {
+    height: 28rem;
+}
+
+    .carousel-item > img {
+        height: 90%;
+        width: auto;
+        min-width: auto;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+ul.navbar-nav.ml-auto a {
+    font-weight: 400;
+    color: #000 !important;
+}
+
+a.slider-btn img {
+    top: -1px;
+    margin-left: 4%;
+}
+
+@media screen and (min-width: 1920px) {
+    a.slider-btn img {
+        height: 17px;
+    }
+}
+
+.vidCol {
+    background: #fff;
+    border-bottom: none;
+}
+
+.card-text:last-child,
+.card-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #888;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1360px;
+    }
+}
+
+.sejamNoti h4 {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px 20px;
+    background-color: #ffe5d4;
+    color: #464646;
+}
+
+.iconLg {
+    font-size: 24px !important;
+}
+
+.viewAll {
+    float: left;
+    color: #d55400;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+
+    .viewAll:hover {
+        text-decoration: none;
+    }
+
+.newsTitle,
+.footerNo {
+    font-weight: 400;
+}
+
+.iconLg {
+    background-color: unset;
+    color: #656565;
+    padding: 4px;
+}
+
+.footerRelated {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: iransans;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+a.slider-btn {
+    border-radius: 5px;
+    box-shadow: 0 3px 0px 0px rgba(225, 225, 225, 1);
+}
+
+@media (max-width: 992px) {
+    a.slider-btn {
+        border: 1px solid #e1e1e1;
+    }
+}
+
+/* END HASANZADEH*/

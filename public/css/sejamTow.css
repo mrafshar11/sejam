@@ -1,0 +1,867 @@
+@font-face {
+    font-family: 'Nucleo Outline';
+    src: url("../fonts/nucleo-outline.eot");
+    src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype"), url("../fonts/nucleo-outline.svg") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: sans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Black.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb(FaNum).woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+.now-ui-icons {
+    display: inline-block;
+    font: normal normal normal 16px/1 'Nucleo Outline';
+    font-size: inherit;
+    speak: none;
+    text-transform: none;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    direction: rtl;
+}
+
+.txtRight {
+    text-align: right !important;
+}
+
+.txtHead {
+    color: #1c2b9e;
+}
+
+p {
+    font-family: sans !important;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-family: sans;
+    font-weight: 900;
+}
+
+.txtregualrMedium {
+    font-family: sans !important;
+    font-size: 16px;
+}
+
+.txtlightMedium {
+    font-family: sans;
+    font-size: 1.2rem;
+}
+
+a, li {
+    font-family: sans;
+    font-weight: 300;
+}
+
+.navStyle {
+    background-color: #607D8B;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+img.navLogo {
+    max-width: 40px;
+    margin-left: 10px;
+}
+
+.paddL5 {
+    padding-left: 5px;
+}
+
+.paddR5 {
+    padding-right: 5px;
+}
+
+.HeadTxtLg {
+    font-family: sans;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.HeadTxtMd {
+    font-family: sans;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.logoMat {
+    width: 170px;
+    height: 63px;
+    padding-top: 10px
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #d55400;
+}
+
+.carousel-indicators li {
+    background-color: hsl(21, 22%, 25%);
+}
+
+.carousel-indicators .active {
+    background-color: #d55400;
+}
+
+.sliderImgOne {
+    background-color: #e9ac14;
+}
+
+.sliderImgTwo {
+    background-color: #E0F7FA;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 80%;
+}
+
+.background-holder {
+    position: absolute;
+    width: 100%;
+    max-height: 420px !important;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.3;
+}
+
+.card {
+    font-family: sans;
+    font-weight: 200;
+}
+
+
+.iconLg {
+    font-size: 30px !important;
+    background-color: #3f51b5;
+    margin-left: 10px;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.sejamNotiDark .iconLg {
+    font-size: 30px !important;
+    background-color: #00BCD4;
+    margin-left: 10px;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.firstCardTxt {
+    padding: 0% 5%;
+    font-family: sans;
+    font-weight: 200;
+}
+
+.firstCardtitle {
+    text-align: center;
+    padding-top: 4%;
+}
+
+
+.noBg {
+    background-color: #fff0 !important;
+    margin-top: 80px;
+}
+
+.sejamNoti {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+    .sejamNoti h4 {
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 14px;
+        background-color: #fceadd;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+.viewAll {
+    font-family: sans;
+    font-size: 14px;
+    padding-right: 3px;
+    font-weight: 100;
+    color: #692f02;
+}
+
+a {
+    cursor: pointer;
+}
+
+.prefooterColor {
+    background: linear-gradient(to top,#cfd8dc63, #cfd8dcad, #cfd8dc);
+    padding-bottom: 20px;
+    min-height: 40px;
+}
+
+.sejamNotiDark h4 {
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+.row.sejamNotiDark {
+    padding-bottom: 20px;
+    min-height: 40px;
+}
+
+.sejamNotiDark a {
+    color: white;
+}
+
+.whiteBtn {
+    background-color: white;
+}
+
+.colDark {
+    background-color: #CFD8DC;
+}
+
+.footerTxt p {
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.footer-copyright.text-center.py-3 img {
+    transform: scale(0.8);
+}
+
+.footer {
+    background-color: #455A64;
+    min-height: 100px;
+    margin-top: 30px;
+}
+
+.vidCol {
+    background: linear-gradient(to bottom,#e4e1e1, #efebebd6, #efebebed, #f1f1f1d1, #f9f9f9, #f7f7f700);
+    border-bottom: 4px solid lightgray;
+    padding-top: 35px;
+}
+
+.navMenu {
+    height: 80px;
+    background-color: #ebebeb;
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    color: #5a5a5a;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+    .carousel-item > img {
+        position: absolute;
+        right: 0;
+        min-width: 100%;
+        height: 31rem;
+    }
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-left: .75rem;
+    margin-right: .75rem;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+    opacity: 0;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 0.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+.headCall {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.newsTitle {
+    font-family: sans !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px #e8d2c4;
+}
+
+.footerTxt {
+    font-family: sans;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 769px) and (min-width: 200px) {
+    .navbar-collapse {
+        background-color: rgb(252, 248, 251);
+        padding: 30px;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: 0px 14px 13px #00000052;
+    }
+}
+
+.page-item.active .page-link {
+    background-color: #d55400;
+    border-color: #d55400;
+    border-radius: 24px;
+    width: 37px;
+    text-align: center;
+}
+
+.npage {
+    border: 1px solid #d75400;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.pPage {
+    border: 1px solid #d75400;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 13px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.newsContain {
+    margin-top: 100px;
+}
+
+.trainingContain {
+    margin-top: 100px;
+}
+
+.newsSidebar {
+    background-color: rgb(249, 248, 248);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.recentImg {
+    max-width: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.recenttitle p {
+    padding-right: 10%;
+    padding-top: 10%;
+    font-family: snas;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.recentRow {
+    border-bottom: 1px solid #e2dfdf;
+    padding-bottom: 9px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 320px) {
+    .newsSidebar {
+        display: none;
+    }
+}
+
+.vidContain {
+    margin-top: 100px;
+}
+
+.sejamVidDark {
+    padding-bottom: 20px;
+    min-height: 40px;
+}
+
+    .sejamVidDark h4 {
+        padding-right: 40px;
+        color: white;
+    }
+
+.vidPrefooterColor {
+    background: linear-gradient(to top,#cfd8dc63, #dfe8ef, #e7e8ea);
+    padding-bottom: 20px;
+    min-height: 40px;
+}
+
+.colSingle {
+    border: 1px solid #eadfdf;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.singleTitle i {
+    background-color: #00BCD4;
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.singleTitle p {
+    font-family: sans !important;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.singleTitle span {
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #ff9300a6;
+    padding: 3px;
+    font-size: 9px;
+}
+
+.singleTitle {
+    border-bottom: 1px dashed #5342387a;
+    margin-bottom: 30px;
+}
+
+.singleContent p {
+    line-height: 1.9;
+    text-align: justify;
+    color: #525050;
+    padding: 13px 29px;
+}
+
+.singleContent h3 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+blockquote {
+    border-right: 3px solid gray;
+    padding-right: 40px;
+    margin-right: 20px;
+    background-color: #f7f7f7;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 4096px) and (min-width: 1920px) {
+    .nav-item i, a {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 980px) {
+    .nav-item i, a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 890px) {
+    .nav-item i, a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 890px) and (min-width: 768px) {
+    .nav-item i, a {
+        font-size: 9px;
+    }
+}
+
+body {
+    max-width: 1920px;
+}
+
+@media only screen and (max-width: 4096px) and (min-width: 1920px) {
+    body {
+        box-shadow: 0 0 20px #cec7c7;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 596px) and (min-width: 200px) {
+    .carousel-caption button {
+        margin-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 200px) {
+    .firstCardTxt {
+        padding: 0% 0%;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+    .vidCol {
+        padding-bottom: 0px;
+    }
+}
+
+.footer-copyright span, a {
+}
+
+ul.navbar-nav.menu-items a {
+    font-weight: 500;
+    color: #505050 !important;
+}
+
+.navbar {
+    padding: 0rem 0.5rem !important;
+}
+
+.headCall img {
+    max-width: 180px;
+}
+
+.cardDate {
+    margin-bottom: 15px;
+    background-color: #d55400;
+    border-radius: 0px 0px 7px 7px;
+    color: white;
+    font-size: 14px;
+    padding: 5px 5px 3px 5px;
+    font-weight: 300;
+    max-width: 120px;
+    text-align: center;
+}
+
+
+
+
+.notiTxt {
+    margin-top: 15px;
+}
+
+.seeMore {
+    font-size: 12px;
+}
+
+.sejamSection {
+    height: 3px;
+    background-color: #c9ced2;
+    margin: 0px 35%;
+}
+
+.SejamNewsImgCard {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.footerRelated img {
+    width: 50px;
+    max-width: 50px;
+    padding: 3px;
+}
+
+.footerRelated {
+    margin-top: 25px;
+}
+
+.footerNo {
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.footerCopyRight {
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.iconLgFooter {
+    font-size: 18px !important;
+    background-color: #607D8B;
+    margin-left: 10px;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.sejamVerifyImg {
+    max-width: 450px;
+}
+
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+    .sejamVerifyImg {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+    .firstCardtitle {
+        font-size: 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+    .footerRelated img {
+        width: 60px;
+        max-width: 55px;
+        padding: 3px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+    .viewAll {
+        display: none;
+    }
+}
+
+.galleryImg {
+    min-width: 100% !important;
+}
+
+.newsContain .row .card .card-body h5 {
+    padding-top: 20px !important;
+}
+
+.row.recentRow a {
+    color: black !important;
+}
+
+a#profile-tab {
+}
+
+.panel-title a {
+    color: black;
+    font-weight: 900;
+    border-bottom: 1px solid lightgray;
+}
+
+p.answer-content {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.row.sejamFaq h4 {
+    padding-right: 10%;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-bottom: 3px dotted #3f51b5;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.row.sejamFaq i {
+    font-size: 16px !important;
+}
+
+.panel.panel-default {
+    margin-bottom: 20px;
+}
+
+main {
+    min-height: 800px;
+}
+
+@media only screen and (max-width:420px) and (min-width:200px) {
+    .footerRelated img {
+        max-width: 40px
+    }
+
+    .card-title {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify
+    }
+
+    .card-text {
+        text-align: justify !important;
+        font-size: 14px !important
+    }
+
+    .card-body h5 a {
+        font-size: 14px
+    }
+
+    .sejamNoti h4 {
+        font-size: 18px
+    }
+
+    .noBg h5 {
+        font-size: 15px
+    }
+
+    img.ingoGraph {
+        width: 100px !important
+    }
+
+    .panel-title a {
+        font-size: 14px
+    }
+
+    .panel-title {
+        width: 100%;
+        background-color: #d9d8d8;
+        padding: 5px;
+        border-radius: 5px 5px 0 0
+    }
+
+    .footerRelated {
+        margin-right: 15px
+    }
+
+    .singleContent h3 {
+        font-size: 19px;
+        line-height: 1.5;
+        text-align: justify
+    }
+
+    .singleContent span {
+        font-family: sans;
+        font-weight: 400
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 970px) {
+    .widthbtn {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 26%;
+        flex: 0 0 26%;
+        max-width: 26%;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+    .widthbtn {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 29%;
+        flex: 0 0 29%;
+        max-width: 29%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .widthbtn {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 90%;
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+}
